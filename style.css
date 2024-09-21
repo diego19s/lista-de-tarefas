@@ -96,3 +96,17 @@
   .completed {
     text-decoration: line-through;
   }
+
+  @media screen and (max-width: 500px) {
+    .container {
+      min-width: 400px;
+    }
+    input {
+      width: 180px;
+    }
+    .new-task-button{
+      width: 30px;
+      font-size: 15px;
+      
+    }
+  }
